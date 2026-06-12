@@ -1,0 +1,12 @@
+:root{--bg:#f7f9fc;--card:#fff;--accent:#1f6feb}
+*{box-sizing:border-box;font-family:Segoe UI,Roboto,Arial,sans-serif}
+body{background:var(--bg);margin:0;display:flex;align-items:center;justify-content:center;height:100vh}
+.app{width:420px;background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(15,20,30,0.06)}
+h1{margin:0 0 12px;font-size:20px;color:#0b2545}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.controls label{display:flex;align-items:center;gap:6px}
+input[type="number"]{width:72px;padding:6px;border-radius:6px;border:1px solid #e6eef8}
+.result{display:flex;gap:8px;margin-bottom:12px}
+#output{flex:1;padding:10px;border:1px solid #e6eef8;border-radius:6px}
+button{padding:8px 12px;border-radius:6px;border:0;background:var(--accent);color:#fff;cursor:pointer}
+.actions{text-align:right}

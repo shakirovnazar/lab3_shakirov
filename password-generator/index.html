@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Генератор паролів</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+  <main class="app">
+    <h1>Генератор паролів</h1>
+    <div class="controls">
+      <label>Довжина: <input id="length" type="number" min="4" max="128" value="16"></label>
+      <label><input id="lower" type="checkbox" checked> Малі літери</label>
+      <label><input id="upper" type="checkbox" checked> ВЕЛИКІ літери</label>
+      <label><input id="numbers" type="checkbox" checked> Цифри</label>
+      <label><input id="symbols" type="checkbox"> Символи</label>
+    </div>
+
+    <div class="result">
+      <input id="output" readonly>
+      <button id="copy">Копіювати</button>
+    </div>
+
+    <div class="actions">
+      <button id="generate">Згенерувати</button>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
